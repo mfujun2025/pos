@@ -4761,6 +4761,88 @@ var articles = [
 <p><strong>问：押金退还要多久？</strong></p>
 <p>答：一般为7-30个工作日，涉及设备寄回验收的会更久。超过一个月未到账，凭工单号再次追问并要求书面说明。</p>
 <p>本文所述规则以合同约定和支付机构官方答复为准，不同产品存在差异。如对POS机押金退还、拒退维权、办理条款核验等有疑问，可发送邮件至 <strong>548827878@qq.com</strong> 咨询，我们将为您提供专业建议。</p>`
+  },
+  {
+    id:39, category:"guide", catName:"选购指南",
+    date:"2026-11-25",
+    title:"POS机T+0、T+1、D+0是什么意思？到账时间与结算周期怎么选",
+    summary:"POS机T+0、T+1、D+0有什么区别？对照表讲清POS机到账时间、节假日结算规则、秒到限制与费用差异，帮商户按现金流选对结算周期、避免货款压账。",
+    content:`<p>刷完卡什么时候到账，是商户最关心的问题之一。POS机结算里的 T+0、T+1、D+0 看着像密码，其实只代表两件事：结算日按工作日还是自然日计算，以及当天到账还是次日到账。搞不清这几个符号，轻则货款多等一天，重则节假日的营业额压在账上。本文把POS机到账时间的规则讲清楚，并给出不同商户的结算周期选择建议。</p>
+<h4>一、先拆符号：T、D、+0、+1 各代表什么</h4>
+<ul>
+<li><strong>T</strong>：交易日（Trade），结算时按<strong>工作日</strong>计算，周末和法定节假日不计入。</li>
+<li><strong>D</strong>：自然日（Day），按<strong>日历日</strong>计算，周末和节假日同样计入。</li>
+<li><strong>+0</strong>：当天结算，即交易完成当日到账。</li>
+<li><strong>+1</strong>：次日结算，即交易完成后顺延一天到账。</li>
+</ul>
+<p>所以 T+1 是“下一个工作日到账”，D+0 是“当天到账、节假日也照常结算”。还有一个容易被忽略的细节：银联的日切时间通常为 23:00，23 点之后的交易会计入次日，到账时间也随之顺延（畅捷通官方客服说明）。</p>
+<h4>二、四种结算模式对照</h4>
+<table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:14px">
+<tr style="background:rgba(212,168,83,.1)">
+<th style="padding:10px;border:1px solid var(--border);text-align:left">结算模式</th>
+<th style="padding:10px;border:1px solid var(--border);text-align:left">含义</th>
+<th style="padding:10px;border:1px solid var(--border);text-align:left">到账时间</th>
+<th style="padding:10px;border:1px solid var(--border);text-align:left">节假日</th>
+</tr>
+<tr>
+<td style="padding:10px;border:1px solid var(--border)">T+1</td>
+<td style="padding:10px;border:1px solid var(--border)">下一工作日结算</td>
+<td style="padding:10px;border:1px solid var(--border)">次工作日 9-12 点</td>
+<td style="padding:10px;border:1px solid var(--border)">顺延，不结算</td>
+</tr>
+<tr>
+<td style="padding:10px;border:1px solid var(--border)">T+0</td>
+<td style="padding:10px;border:1px solid var(--border)">当日结算（工作日）</td>
+<td style="padding:10px;border:1px solid var(--border)">当天，最快约 2 小时</td>
+<td style="padding:10px;border:1px solid var(--border)">按工作日，节假日顺延</td>
+</tr>
+<tr>
+<td style="padding:10px;border:1px solid var(--border)">D+0（D0）</td>
+<td style="padding:10px;border:1px solid var(--border)">当日/笔笔结算</td>
+<td style="padding:10px;border:1px solid var(--border)">当天或每笔实时</td>
+<td style="padding:10px;border:1px solid var(--border)">含节假日正常结算</td>
+</tr>
+<tr>
+<td style="padding:10px;border:1px solid var(--border)">D+1</td>
+<td style="padding:10px;border:1px solid var(--border)">次日自然日结算</td>
+<td style="padding:10px;border:1px solid var(--border)">次日到账</td>
+<td style="padding:10px;border:1px solid var(--border)">含节假日</td>
+</tr>
+</table>
+<p>表中规则依据通联支付、汇付天下、星驿付等支付机构的公开结算说明整理：T+1 为多数产品的默认自动结算方式；D+0 可设置为笔笔到账或手动提现；D+1 则是按自然日顺延一天。</p>
+<h4>三、显示“秒到”却没到账的六个原因</h4>
+<p><strong>1. 不在秒到时段</strong>：多数产品的秒到时段为 7:00-22:00 或 8:00-23:00，凌晨和 23 点后的交易转入次日结算。</p>
+<p><strong>2. 结算卡是二类账户</strong>：二类卡有单日入账限额，超出部分无法入账，建议换成一类借记卡。</p>
+<p><strong>3. 超出秒到额度</strong>：单笔或单日超过产品设定的秒到上限，会自动转为 T+1。</p>
+<p><strong>4. 触发风控</strong>：大额整数、异地收款、短时间高频交易，会被风控转为人工或次日审核。</p>
+<p><strong>5. 借记卡交易</strong>：部分产品规定借记卡交易不支持当天提现，统一按 T+1 结算。</p>
+<p><strong>6. 通道维护或系统升级</strong>：支付机构切换通道、银行系统维护期间，到账会延迟。</p>
+<p>遇到没到账，先查交易状态是否成功，再核对是否落在秒到时段和额度内，不要反复重刷，避免产生重复扣款争议。</p>
+<h4>四、D0 秒到费到底划不划算</h4>
+<p>早期不少产品的 D0 秒到按笔加收费用，常见为每笔 1-3 元，或按交易金额收取一定比例，具体以签约费率为准。2026 年以来，部分品牌的新款 4G 机型已把 D0 与 T+1 的基础费率拉平，不再单独收取秒到费，但秒到仍受时段、金额和风控限制。</p>
+<p>判断是否划算，可以用一个简单算式：把每月交易笔数乘以单笔秒到费，再和提前到账带来的周转价值做对比。日均几十笔的小店，费用会明显放大；一天只有几笔的商户，T+1 往往更省。</p>
+<h4>五、不同商户怎么选结算周期</h4>
+<ul>
+<li><strong>便利店、餐饮、生鲜</strong>：笔数多、金额小、需要天天进货，D0 笔笔到账更合适。</li>
+<li><strong>批发、五金、建材</strong>：单笔大、频率低，T+1 免秒到费，能接受次日到账就选它。</li>
+<li><strong>景区、礼品、节庆零售</strong>：节假日是销售高峰，优先选含节假日结算的 D0/D1 模式。</li>
+<li><strong>企业商户、对公收款</strong>：可申请 T+0 快速到账或对公结算，注意对公账户的入账时间。</li>
+<li><strong>刚开业的新商户</strong>：先用默认 T+1 跑顺流程，交易稳定后再按需要开通 D0。</li>
+</ul>
+<h4>六、三个常见误区</h4>
+<p><strong>误区一：D0 一定比 T+1 贵。</strong>不一定。是否加收秒到费取决于产品和签约费率，部分新款机型已经拉平。</p>
+<p><strong>误区二：秒到就是实时到账。</strong>秒到仍有单笔限额、时段限制和风控拦截，超出条件会转为 T+1。</p>
+<p><strong>误区三：周末刷卡周一才到是机器坏了。</strong>这是 T+1 的正常规则，周五、周六、周日的交易会顺延到下一个工作日。</p>
+<h4>七、常见问题解答</h4>
+<p><strong>问：周五刷卡，T+1 什么时候到账？</strong></p>
+<p>答：下周一。T+1 只算工作日，周六、周日不计入结算日。</p>
+<p><strong>问：晚上 11 点半刷卡算哪天的交易？</strong></p>
+<p>答：银联日切一般为 23:00，之后的交易计入次日，到账时间相应顺延一天。</p>
+<p><strong>问：结算卡可以用二类卡吗？</strong></p>
+<p>答：可以绑定，但二类卡有入账限额，大额收款容易被卡住，建议使用一类借记卡。</p>
+<p><strong>问：到账金额比刷卡金额少很多，是费率涨了吗？</strong></p>
+<p>答：先核对三笔费用：刷卡手续费、秒到费、流量费。三项合计对不上，再联系支付机构官方客服查询明细。</p>
+<p>结算规则以签约协议和支付机构官方说明为准，不同产品存在差异。如对POS机到账时间、结算周期选择、秒到费核对等有疑问，可发送邮件至 <strong>548827878@qq.com</strong> 咨询，我们将为您提供专业建议。</p>`
   }
 ];
 
